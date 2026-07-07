@@ -9,7 +9,7 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/main/assets/warp-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/omsawant-coder/omsawant-coder/main/warp-divider.svg"/>
 
 ```
 CAPTAIN'S LOG — SUPPLEMENTAL
@@ -20,7 +20,7 @@ to seek out new architectures and new optimizations,
 to boldly train where no model has trained before.
 ```
 
-<img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/main/assets/warp-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/omsawant-coder/omsawant-coder/main/warp-divider.svg"/>
 
 ## 🛰️ MISSION PARAMETERS
 
@@ -34,7 +34,7 @@ status:      Seeking open-source collaborations
 comms:       omiie888@gmail.com
 ```
 
-<img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/main/assets/warp-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/omsawant-coder/omsawant-coder/main/warp-divider.svg"/>
 
 ## 🪐 SYSTEMS ONLINE — TECH STACK
 
@@ -44,7 +44,7 @@ comms:       omiie888@gmail.com
 
 </div>
 
-<img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/main/assets/warp-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/omsawant-coder/omsawant-coder/main/warp-divider.svg"/>
 
 ## 📡 SIGNAL — CONNECT
 
@@ -57,7 +57,7 @@ comms:       omiie888@gmail.com
 
 </div>
 
-<img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/main/assets/warp-divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/omsawant-coder/omsawant-coder/main/warp-divider.svg"/>
 
 ## 📊 TELEMETRY
 
