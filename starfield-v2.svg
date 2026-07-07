@@ -1,0 +1,96 @@
+<svg width="100%" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#0b0f2b"/>
+    </linearGradient>
+    <radialGradient id="neb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5b2aa8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5b2aa8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="neb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1c6ea4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1c6ea4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="comet-glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8ab4f8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#8ab4f8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#f7c873"/>
+      <stop offset="60%" stop-color="#c9862f"/>
+      <stop offset="100%" stop-color="#7a4d16"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="240" fill="url(#bg2)"/>
+
+  <!-- drifting nebula clouds -->
+  <ellipse cx="180" cy="70" rx="260" ry="120" fill="url(#neb1)">
+    <animate attributeName="cx" values="180;230;180" dur="14s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="950" cy="170" rx="300" ry="130" fill="url(#neb2)">
+    <animate attributeName="cx" values="950;900;950" dur="16s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- twinkling stars -->
+  <g fill="#ffffff">
+    <circle cx="40" cy="30" r="1.4"><animate attributeName="opacity" values="1;0.1;1" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="80" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="140" r="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="60" r="1.3"><animate attributeName="opacity" values="1;0.2;1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="200" r="1"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="540" cy="110" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="610" cy="30" r="1.2"><animate attributeName="opacity" values="1;0.25;1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="70" r="1.4"><animate attributeName="opacity" values="1;0.1;1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="20" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="40" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1110" cy="110" r="1.5"><animate attributeName="opacity" values="1;0.15;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1160" cy="30" r="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="90" cy="200" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ringed planet, slow rotation -->
+  <g transform="translate(1040,60)">
+    <ellipse cx="0" cy="0" rx="60" ry="16" fill="none" stroke="#8ab4f8" stroke-width="2" opacity="0.5" transform="rotate(-18)">
+      <animateTransform attributeName="transform" type="rotate" from="-18 0 0" to="342 0 0" dur="40s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="0" cy="0" r="34" fill="url(#planet)"/>
+    <ellipse cx="0" cy="0" rx="60" ry="16" fill="none" stroke="#f7c873" stroke-width="2" opacity="0.85" transform="rotate(-18)">
+      <animateTransform attributeName="transform" type="rotate" from="-18 0 0" to="342 0 0" dur="40s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- satellite orbit -->
+  <ellipse cx="600" cy="120" rx="190" ry="48" fill="none" stroke="#2a2f55" stroke-width="1" stroke-dasharray="2 4" opacity="0.6"/>
+  <circle r="3.5" fill="#8ab4f8">
+    <animateMotion dur="9s" repeatCount="indefinite" path="M 790,120 A 190,48 0 1,1 410,120 A 190,48 0 1,1 790,120"/>
+  </circle>
+
+  <!-- rocket launch trail, bottom left rising diagonally -->
+  <g>
+    <path d="M 40,235 C 120,190 180,150 260,90" fill="none" stroke="#ff8a5c" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+    <g>
+      <animateMotion dur="7s" repeatCount="indefinite" path="M 40,235 C 120,190 180,150 260,90"/>
+      <polygon points="0,-8 5,6 0,3 -5,6" fill="#e8e8e8" transform="rotate(-35)"/>
+    </g>
+  </g>
+
+  <!-- comet streak -->
+  <g>
+    <circle r="30" fill="url(#comet-glow2)">
+      <animateMotion dur="6.5s" repeatCount="indefinite" path="M -50,30 L 1250,210"/>
+    </circle>
+    <circle r="2.5" fill="#ffffff">
+      <animateMotion dur="6.5s" repeatCount="indefinite" path="M -50,30 L 1250,210"/>
+    </circle>
+  </g>
+
+  <!-- mission text -->
+  <text x="600" y="130" text-anchor="middle" font-family="Fira Code, monospace" font-size="28" fill="#e8ecff" letter-spacing="4">
+    OM SAWANT
+  </text>
+  <text x="600" y="158" text-anchor="middle" font-family="Fira Code, monospace" font-size="13" fill="#8ab4f8" letter-spacing="2">
+    AGENTIC AI &#183; DEEP LEARNING &#183; NLP &#183; CNN
+  </text>
+</svg>
