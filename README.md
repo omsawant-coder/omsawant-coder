@@ -50,7 +50,7 @@ comms:       omiie888@gmail.com
 
 <div align="center">
 
-<a href="www.linkedin.com/in/om-sawant-72a08b255" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=8AB4F8" /></a>
+<a href="https://linkedin.com/in/om-sawant-72a08b255/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=8AB4F8" /></a>
 <a href="https://kaggle.com/omsawant29" target="_blank"><img src="https://img.shields.io/badge/Kaggle-000000?style=for-the-badge&logo=kaggle&logoColor=8AB4F8" /></a>
 <a href="https://leetcode.com/u/omsawant29/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=8AB4F8" /></a>
 <a href="https://stackoverflow.com/users/YOUR-LINK" target="_blank"><img src="https://img.shields.io/badge/StackOverflow-000000?style=for-the-badge&logo=stackoverflow&logoColor=8AB4F8" /></a>
